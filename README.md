@@ -15,14 +15,16 @@
   </a>
 
   <a aria-label="Versão do Expo">
-    <img src="https://img.shields.io/badge/expo--CLI-3.11.7-informational?logo=expo"></img>
+    <img src="https://img.shields.io/badge/expo--CLI-3.16.1-informational?logo=expo"></img>
   </a>
 </p>
+
+<img align="center" src="https://user-images.githubusercontent.com/43749971/77864395-ac9fb100-71fe-11ea-875c-f59a966093fe.png"></img>
 
 
 ## :bulb: Projeto
 
-O Be The Hero é um projeto que visa conectar pessoas que têm vontade de ajudar à ONGs (Organizações Não Governamentais).
+O Be The Hero é um projeto que visa conectar ONGs (Organizações Não Governamentais) à pessoas que têm vontade de ajudar (heróis).
 
 
 ## :rocket: Tecnologias
@@ -37,19 +39,45 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :computer: Backend
 
-ToDo
+Para executar as migrações,  execute os comandos:
+```bash
+cd backend
+npm knex migrate:latest
+```
+
+Para iniciar a API, execute os comandos:
+```bash
+cd backend
+npm install
+npm start
+```
 
 
 ## :earth_americas: Frontend
 
-ToDo
+Para iniciar o **Frontend** do React utilize os comandos:
+```bash
+cd frontend
+npm install
+npm start
+```
 
 
 ## :iphone: Mobile
 
-ToDo
+Para testar o **Mobile** do React Native, primeiro coloque o endereço do seu servidor (ou computador) no arquivo `mobile/src/services/api.js`, e depois execute os comandos:
+```bash
+cd mobile
+npm install
+npm start
+```
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19002`. Conecte seu emulador, ou teste o aplicativo por `LAN`: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR.
 
 
 ### Extras
 - [Shields.io](https://shields.io/)
 - [Github Emojis](https://gist.github.com/rxaviers/7360908)
+
+---
+
+Made with ♥ by John Emerson :wave: [Get in touch](https://johnemerson1406.github.io/linktree)
