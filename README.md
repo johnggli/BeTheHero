@@ -80,4 +80,4 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 
 ---
 
-Made with ♥ by John Emerson :wave: [Get in touch](https://johnemerson1406.github.io/linktree)
+Made with ♥ by John Emerson :wave: [Get in touch](https://johnggli.github.io/linktree)
